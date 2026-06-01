@@ -67,7 +67,7 @@ export default function About() {
               <div className="absolute inset-0 border-2 border-teal-400 rounded-lg translate-x-4 translate-y-4 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform duration-300" />
               <div className="relative w-64 h-64 rounded-lg overflow-hidden">
                 <img
-                  src="/profile.png"
+                  src={`${import.meta.env.BASE_URL}profile.png`}
                   alt="Shashwat Rai"
                   className="w-full h-full object-cover"
                 />
